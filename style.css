@@ -24,8 +24,7 @@ body{
     justify-content: space-between;
     background-color: #A8D0E6;
 }
-.footer-container{
-    display: flex;
-    justify-content: space-between;
-    transition: 0.3s;
+.container{
+    margin: 0 auto;
+    max-width: 1440px
 }
