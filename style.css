@@ -12,7 +12,10 @@ html{
   font-family: Roboto;
   src: url("assets/fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf");
 }
-
+html, body {
+  /* Убирает прокрутку по горизонтале, для мобильной версии */
+  overflow-x: hidden;
+}
 header{
     margin: 0;
     background-color: #030303;
@@ -21,6 +24,9 @@ header{
     display: flex;
     justify-content: space-between;
     margin-top: 62px;
+}
+.logo{
+    margin-top: 22px;
 }
 .logo-svg{
     text-decoration: none;
@@ -32,12 +38,14 @@ header{
 }
 .nav{
     display: flex;
+    margin-bottom: 62px;
 }
 .nav-list{
     display: flex;
     list-style: none;
 }
 .nav-link{
+    text-transform: uppercase;
     text-decoration: none;
     font-family: Roboto;
     font-weight:100;
@@ -50,12 +58,11 @@ header{
 }
 h1{
    font-family: Forum; 
+   text-transform: uppercase;
    letter-spacing: 5px;
    font-size: 28px;
-}
-main{
-    margin: 0;
-    border: 1px red solid;
+   font-weight:100;
+   margin: 0;
 }
 footer{
     margin: 0;
@@ -74,4 +81,59 @@ body{
 .container{
     margin: 0 auto;
     max-width: 1440px;
+    padding: 0 15px;
+}
+h2{
+    font-family: Forum; 
+    text-transform: uppercase;
+    font-size: 80px;
+    letter-spacing: 5px;
+    margin: 0;
+}
+p{
+    font-family: Roboto;
+    font-weight:100;
+    font-size: 22px;
+}
+.title{
+    margin: 0 0 25px;
+    padding-top: 150px;
+}
+.background_black{
+    background-color: #030303;
+}
+.welcome{
+    background-color: #030303;
+    height: 750px;
+    background-image: url(./assets/img/1.png);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 20px) calc(100% - 10px);
+}
+.welcome-title{
+    width: 650px;
+    height: 388px;
+}
+.title_white{
+    color: #FFFFFF;
+}
+.welcome-p{
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    margin-bottom: 75px;
+}
+.welcome-button{
+    background-color: #710707;
+    width: 360px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 272px;
+}
+.welcome-button-a{
+    text-decoration: none;
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
 }
