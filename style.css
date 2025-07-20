@@ -164,3 +164,22 @@ p{
 .virtual-tour_p{
     margin-bottom: 75px;
 }
+.explore{
+    padding: 75px 0;
+    background-color: #030303;
+}
+.explore-background{
+    display: flex;
+    background-image: url(./assets/img/3-2.png);
+    background-repeat: no-repeat;
+    background-position: calc(100% + 60px) calc(100% - 0px);
+}
+.explore-text{
+    margin-right: 60px;
+}
+.title-103{
+    margin-bottom: 103px;
+}
+.explore-p{
+    color: #FFFFFF;
+}
