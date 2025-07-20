@@ -1,0 +1,257 @@
+* {
+  box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    transition: 0.3s;
+}
+@font-face {
+  font-family: Forum;
+  src: url("assets/fonts/Forum/Forum-Regular.ttf");
+}
+@font-face {
+  font-family: Roboto;
+  src: url("assets/fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf");
+}
+html, body {
+  /* Убирает прокрутку по горизонтале, для мобильной версии */
+  overflow-x: hidden;
+}
+header{
+    margin: 0;
+    background-color: #030303;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 62px;
+}
+.logo{
+    margin-top: 22px;
+}
+.logo-svg{
+    text-decoration: none;
+    color: #FFFFFF;
+    display: flex;
+}
+.museum_logo-svg{
+    margin-right: 25px;
+}
+.nav{
+    display: flex;
+    margin-bottom: 62px;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+}
+.nav-link{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Roboto;
+    font-weight:100;
+    color: #FFFFFF;
+    font-size: 22px;
+    letter-spacing: 2px;
+    transition: 0.3s;
+}
+.nav-link{
+    margin-right: 55px;
+}
+h1{
+   font-family: Forum; 
+   text-transform: uppercase;
+   letter-spacing: 5px;
+   font-size: 28px;
+   font-weight:100;
+   margin: 0;
+}
+footer{
+    margin: 0;
+    border: 1px blue solid;
+}
+body{
+    font-family: Roboto;
+    font-weight:300;
+    font-size: 22px;
+    margin: 0; 
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 0 15px;
+}
+h2{
+    font-family: Forum; 
+    text-transform: uppercase;
+    font-size: 80px;
+    letter-spacing: 5px;
+    margin: 0;
+    color: #9D8665;
+}
+p{
+    font-family: Roboto;
+    font-weight:100;
+    font-size: 22px;
+}
+.title{
+    margin: 0 0 25px;
+}
+.title-padding{
+    padding-top: 150px;
+}
+.background_black{
+    background-color: #030303;
+}
+.welcome{
+    background-color: #030303;
+    height: 750px;
+    background-image: url(./assets/img/1.png);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 20px) calc(100% - 10px);
+}
+.welcome-title{
+    width: 650px;
+    height: 388px;
+}
+.title_white{
+    color: #FFFFFF;
+}
+.welcome-p{
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    margin-bottom: 75px;
+}
+.welcome-button{
+    background-color: #710707;
+    width: 360px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 272px;
+}
+.welcome-button-a{
+    text-decoration: none;
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+.visiting{
+    margin: 75px 0;
+}
+.title-bottom{
+    margin-bottom: 103px;
+}
+.virtual-tour_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.virtual-tour_title{
+    font-family: Forum;
+    text-transform: uppercase;
+    font-size: 32px;
+    letter-spacing: 5px;
+    margin: 25px 0 22px;
+}
+.virtual-tour_p1{
+    margin-bottom: 10px;
+}
+.virtual-tour_p{
+    margin-bottom: 75px;
+}
+.explore{
+    padding: 75px 0;
+    background-color: #030303;
+}
+.explore-background{
+    display: flex;
+    background-image: url(./assets/img/3-2.png);
+    background-repeat: no-repeat;
+    background-position: calc(100% + 60px) calc(100% - 0px);
+}
+.explore-text{
+    margin-right: 60px;
+}
+.title-103{
+    margin-bottom: 103px;
+}
+.explore-p{
+    color: #FFFFFF;
+}
+.video{
+    margin: 75px 0;
+}
+.video-title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 75px;
+}
+.video-player-img{
+    width: 1410px;
+    margin-bottom: 125px;
+}
+.video-gallery{
+    display: flex;
+    justify-content: space-between;
+}
+.gallery{
+    background-color: #030303;
+    padding-top: 75px;
+    margin-bottom: 75px;
+}
+.gallery-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 24px;
+    column-gap: 36px;
+    align-items: end;
+}
+h3{
+    font-family: Roboto;
+    font-size: 28px;
+}
+.tickets{
+    margin: 75px 0;
+}
+.tisket-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.titcket-type{
+    margin-bottom: 50px;
+}
+input{
+    margin-bottom: 25px;
+}
+.parallax{
+    margin-bottom: 75px;
+}
+.contacts{
+    margin-bottom: 75px;
+}
+.contact{
+    text-decoration: none;
+    color: #030303;
+}
+.contact-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.page1_footer{
+    background-color: #030303;
+}
+.footer_links{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.footer-rsschool{
+    display: flex;
+    justify-content: space-between;
+}
