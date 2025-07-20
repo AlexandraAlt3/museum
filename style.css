@@ -89,6 +89,7 @@ h2{
     font-size: 80px;
     letter-spacing: 5px;
     margin: 0;
+    color: #9D8665;
 }
 p{
     font-family: Roboto;
@@ -97,6 +98,8 @@ p{
 }
 .title{
     margin: 0 0 25px;
+}
+.title-padding{
     padding-top: 150px;
 }
 .background_black{
@@ -136,4 +139,28 @@ p{
     font-size: 22px;
     letter-spacing: 2px;
     color: #FFFFFF;
+}
+.visiting{
+    margin: 75px 0;
+}
+.title-bottom{
+    margin-bottom: 103px;
+}
+.virtual-tour_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.virtual-tour_title{
+    font-family: Forum;
+    text-transform: uppercase;
+    font-size: 32px;
+    letter-spacing: 5px;
+    margin: 25px 0 22px;
+}
+.virtual-tour_p1{
+    margin-bottom: 10px;
+}
+.virtual-tour_p{
+    margin-bottom: 75px;
 }
