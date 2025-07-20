@@ -3,6 +3,7 @@
 }
 html{
     scroll-behavior: smooth;
+    transition: 0.3s;
 }
 @font-face {
   font-family: Forum;
@@ -52,6 +53,7 @@ header{
     color: #FFFFFF;
     font-size: 22px;
     letter-spacing: 2px;
+    transition: 0.3s;
 }
 .nav-link{
     margin-right: 55px;
@@ -182,4 +184,74 @@ p{
 }
 .explore-p{
     color: #FFFFFF;
+}
+.video{
+    margin: 75px 0;
+}
+.video-title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 75px;
+}
+.video-player-img{
+    width: 1410px;
+    margin-bottom: 125px;
+}
+.video-gallery{
+    display: flex;
+    justify-content: space-between;
+}
+.gallery{
+    background-color: #030303;
+    padding-top: 75px;
+    margin-bottom: 75px;
+}
+.gallery-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 24px;
+    column-gap: 36px;
+    align-items: end;
+}
+h3{
+    font-family: Roboto;
+    font-size: 28px;
+}
+.tickets{
+    margin: 75px 0;
+}
+.tisket-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.titcket-type{
+    margin-bottom: 50px;
+}
+input{
+    margin-bottom: 25px;
+}
+.parallax{
+    margin-bottom: 75px;
+}
+.contacts{
+    margin-bottom: 75px;
+}
+.contact{
+    text-decoration: none;
+    color: #030303;
+}
+.contact-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.page1_footer{
+    background-color: #030303;
+}
+.footer_links{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.footer-rsschool{
+    display: flex;
+    justify-content: space-between;
 }
